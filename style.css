@@ -381,6 +381,11 @@ body{
     }
     .header-artical h1{
         font-size: 30px;
+        margin-bottom: 20px;
+    }
+
+    .header-artical p{
+        margin: 15px 2px;
     }
 
     .ecommerce-container{
