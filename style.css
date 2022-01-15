@@ -1,0 +1,95 @@
+/*------------------------------------ fonts-import-------------------------------- */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Poppins&display=swap');
+
+/*------------------------------------ Common Style ------------------------------- */
+body{
+    background-color: white;
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.button-common{
+    width: 220px;
+    background-color: #E02C6D;
+    color: white;
+    padding: 4px 10px;
+    margin-left: 20px;
+    border: 0;
+    border-radius: 40px;
+    font-weight: bold;
+    font-size: 16px;
+    padding: 10px;    
+}
+
+
+/*------------------------------------ header ------------------------------------ */
+
+.header-container{
+    width: 100%;
+    margin: 10px 30px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.header-title{
+    font-size: 24px;
+    margin-left: 10%;
+    font-weight: bold;
+    color: #3A3A3A;
+}
+
+.navigation{
+    width: 90%;
+    text-align: right;
+}
+
+.navigation ul li{
+    display: inline-flex;
+    justify-content: space-between;
+    margin-left: 10px;
+    margin-right: 34px;
+    list-style: none;
+}
+
+.navigation ul li a{
+    text-decoration: none;
+    color: #3A3A3A;
+    font-size: 16px;
+    font-weight: 600;
+    margin-top:17px ;
+}
+
+
+/*----------------------------------------- header article -----------------------------*/
+
+.header-artical-container{
+    display: flex;
+    margin: 10px 7%;
+}
+
+.header-artical{
+    width: 50%;
+    margin-right: 10%;
+    color: #3A3A3A;
+}
+
+.header-artical h1{
+    font-size: 52px;
+    font-weight: bolder;
+}
+
+.header-artical p{
+    margin-top: -4%;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.header-artical-container:hover .header-artical button{
+    transform: scale(1.2);
+    transition: transform 1s;
+}
+
+.fa-arrow-right{
+    margin-left: 10px;
+}
+
