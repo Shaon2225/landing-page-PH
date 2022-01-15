@@ -4,7 +4,7 @@
 /*------------------------------------ Common Style ------------------------------- */
 body{
     background-color: white;
-    margin: 0;
+    margin: 0px;
     font-family: 'Open Sans', sans-serif;
 }
 
@@ -12,13 +12,13 @@ body{
     width: 220px;
     background-color: #E02C6D;
     color: white;
-    padding: 4px 10px;
-    margin-left: 20px;
+    padding: 10px 20px;
+    margin-left: 20px; 
     border: 0;
     border-radius: 40px;
     font-weight: bold;
     font-size: 16px;
-    padding: 10px;    
+      
 }
 
 
@@ -68,8 +68,9 @@ body{
 }
 
 .header-artical{
+    padding: 10px;
     width: 50%;
-    margin-right: 10%;
+    margin: 0 1%;
     color: #3A3A3A;
 }
 
@@ -84,14 +85,18 @@ body{
     font-weight: 600;
 }
 
-.header-artical-container:hover .header-artical button{
+.header-artical-container:hover .header-artical .button-common{
     background-color: white;
     border: 3px solid #E02C6D;
     font-size: 20px;
     color: #E02C6D;
     transform: scale(1.2);
-    transition: transform 1s ease-in-out, background-color 1s ease-in-out;
+    transition: transform 1s ease-in, background-color 1s ease-in;
 }
+
+/* .header-artical-container img{
+    width: 50%;
+} */
 
 .fa-arrow-right{
     margin-left: 10px;
@@ -103,7 +108,7 @@ body{
 .ecommerce-container{
     display: flex;
     justify-content: center;
-    border: 2px solid lightcoral;
+    border: 2px solid #fab2b260;
     border-left: 0;
     border-right: 0;
     margin: 100px 15%;
@@ -114,3 +119,136 @@ body{
     margin-right: 5%;
 }
 
+/* ------------------------------------ product section -------------------------------------------- */
+
+.products-container{
+    margin: 10%;
+    width: 80%;
+}
+
+.products-container h3{
+    text-align: center;
+    font-weight: 600;
+    font-size: 28px;
+}
+
+.product-area{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+}
+
+.product-box{
+    margin: 20px 4%;
+    padding: 10px;
+    border: 1px;
+    border-radius: 5px;
+    box-shadow: 0 2.8px 2.2px #00000009,
+    0 6.7px 5.3px #0000000c,
+    0 12.5px 10px #0000000f,
+    0 22.3px 17.9px #00000012,
+    0 41.8px 33.4px #00000016,
+    0 7px 10px #0000001f;
+}
+
+.product-box img{
+    border-radius: 10px;
+    padding-top: 5px;
+    width: 100%;    
+}
+
+.product-name{
+    font-weight: 600;
+    font-size: 28px;
+    color: #18191F;
+}
+
+.price{
+    font-size: 24px;
+    margin-top: -20px;
+}
+
+.rating{
+    color: goldenrod;
+    margin-top: -30px;
+    font-weight: 700;
+}
+
+.description ul li{
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.see-more{
+    display: flex;
+    justify-content: right;
+    margin-right: 2%;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.see-more{
+    display: flex;
+    justify-content: right;
+}
+
+.see-more-style{
+    color: #E02C6D;
+    background-color: white;
+    border: 1px solid #E02C6D;
+    margin-top: 12px;
+}
+
+/* -------------------------------------------------------- End article -----------------------------------------------------*/
+
+.end-artical{
+    margin-left: 5%;
+    width: 120%;
+}
+
+.end-artical h1{
+    margin-top: -10px;
+    margin-bottom: 40px;
+}
+.Continue-button{
+    color: white;
+    background-color: #E02C6D;
+    border: 1px solid;
+    border-radius: 10px;
+    padding: 7px 15px;
+    margin-left: 5%;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+/* ------------------------------------------------------- footer area ----------------------------------------------------- */
+
+.footer-container{
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    background-color: black;
+    text-align: center;
+    color: white;
+    margin-bottom: 0px;
+    margin-top: 70px;
+    padding: 30px;
+}
+
+.footer-container h1{
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.footer-container h3{
+    font-size: 10px;
+    font-weight: 500;
+    margin-top: 0px;
+}
+
+.social-media{
+    font-size: 15px;
+}
+
+.social-media .social{
+    margin-right: 10px;
+}
