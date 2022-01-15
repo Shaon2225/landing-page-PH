@@ -26,7 +26,7 @@ body{
 
 .header-container{
     width: 100%;
-    margin: 10px 30px;
+    margin: 50px 30px;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
 }
@@ -85,11 +85,32 @@ body{
 }
 
 .header-artical-container:hover .header-artical button{
+    background-color: white;
+    border: 3px solid #E02C6D;
+    font-size: 20px;
+    color: #E02C6D;
     transform: scale(1.2);
-    transition: transform 1s;
+    transition: transform 1s ease-in-out, background-color 1s ease-in-out;
 }
 
 .fa-arrow-right{
     margin-left: 10px;
+}
+
+
+/* ------------------------------------- E-commerce section ----------------------------------------*/
+
+.ecommerce-container{
+    display: flex;
+    justify-content: center;
+    border: 2px solid lightcoral;
+    border-left: 0;
+    border-right: 0;
+    margin: 100px 15%;
+    padding: 20px;
+}
+
+.ecommerce-container img{
+    margin-right: 5%;
 }
 
